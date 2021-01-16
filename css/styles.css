@@ -2,7 +2,26 @@
   text-align: center;
 }
 
-.about {
-  text-align: left;
+.span {
+  color: red;
 }
+
+.about, .background {
+  font-style: italic;
+  text-align: left;
+  font-size: 20px;
+  line-height: 20px;
+  width: 100%;
+  padding: 10px;
+  border: solid black;
+  border-width: 10px;
+  background-color: grey;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.hobby {
+  float: right;
+}
+
 
